@@ -1,0 +1,23 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    
+    <title>Etch-a-Sketch</title>
+</head>
+
+<body>
+    <div class="menu">
+        <button id="resetButton">Reset the grid</button>
+    </div>
+    <div class="menu">
+        <label>
+            Size of the grid : <input type="number" id="gridSize" onkeypress="return event.charCode >= 48" min="1" max="80" >
+        </label>
+        <button id="changeSize" class="leftMargin10">Change grid size</button>
+    </div>
+    <div class="container" id="gridContainer">
+
+    </div>
+
+
+    <script src="functions.js" async defer></script>
+</body>
